@@ -33,10 +33,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="FragmentShader.fs">
+    <None Include="OpenGLTriangle.fs">
       <Filter>Shader</Filter>
     </None>
-    <None Include="VertexShader.vs">
+    <None Include="OpenGLTriangle.vs">
       <Filter>Shader</Filter>
     </None>
   </ItemGroup>

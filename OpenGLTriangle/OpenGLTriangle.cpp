@@ -65,7 +65,7 @@ int main()
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertexBufferData), vertexBufferData, GL_STATIC_DRAW);
 
 	Shader shaderProgram;
-	GLuint programId = shaderProgram.loadShader("VertexShader.vs", "FragmentShader.fs");
+	GLuint programId = shaderProgram.loadShader("OpenGLTriangle.vs", "OpenGLTriangle.fs");
 
 	glClearColor(1.0f, 0.0f, 0.0f, 0.0f);
 

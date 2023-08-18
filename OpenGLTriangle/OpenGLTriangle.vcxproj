@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{4490332e-6a91-433f-aa14-85d75dec8d25}</ProjectGuid>
-    <RootNamespace>OpenGLTriangles</RootNamespace>
+    <RootNamespace>OpenGLTriangle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -112,7 +112,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)\ThirdParty\glew-2.1.0\lib\Debug\x64;$(SolutionDir)\ThirdParty\glfw-3.3.8\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\ThirdParty\glew-2.1.0\lib\Debug\;$(SolutionDir)\ThirdParty\glfw-3.3.8\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>glew32d.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -141,8 +141,8 @@
     <ClInclude Include="..\Common\Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FragmentShader.fs" />
-    <None Include="VertexShader.vs" />
+    <None Include="OpenGLTriangle.fs" />
+    <None Include="OpenGLTriangle.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
