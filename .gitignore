@@ -1,0 +1,7 @@
+.vs
+ThirdParty/glew-2.1.0/build/vc17/.vs
+ThirdParty/glew-2.1.0/build/vc17/tmp
+ThirdParty/glfw-3.3.8/build/.vs
+ThirdParty/glfw-3.3.8/build/x64
+x64
+OpenGLTriangles/x64
