@@ -1,4 +1,0 @@
-E:/Workspace/OpenGL/ThirdParty/glfw-3.3.8/build/CMakeFiles/ALL_BUILD.dir
-E:/Workspace/OpenGL/ThirdParty/glfw-3.3.8/build/CMakeFiles/ZERO_CHECK.dir
-E:/Workspace/OpenGL/ThirdParty/glfw-3.3.8/build/src/CMakeFiles/update_mappings.dir
-E:/Workspace/OpenGL/ThirdParty/glfw-3.3.8/build/src/CMakeFiles/glfw.dir
